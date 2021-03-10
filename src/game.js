@@ -7,6 +7,7 @@ export default class Game {
     this.sym = 'X'
   }
 
+  
   turn (row, col) {
     col = col || row
     this.board[row][col] = this.sym
